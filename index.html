@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Facebook Clone</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <nav id="nav">
+      <ul class="left-ul">
+        <li><a href="Facebook"></a></li>
+      </ul>
+      <div class="empty"></div>
+      <form action="">
+        <ul class="right-ul">
+          <li>
+            <input type="email" name="phoneoremail" class="nav-control" placeholder="Enter Email or Mobile Number">
+          </li>
+          <li>
+            <input type="password" name="password" class="nav-control" placeholder="Enter Password">
+          </li>
+          <li>
+            <input type="submit" value="Login" class="nav-btn">
+          </li>
+        </ul>
+      </form>
+    </nav>
+
+    <div class="container">
+      <div class="left-section">
+        <div class="left-heading">
+          <h3>Facebook helps you connect and share with the people in your life.</h3>
+          <div class="image">
+            <img src="./bg.webp" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="right-section">
+        <h1 class="form-heading">
+          Create an Account
+        </h1>
+        <p class="text">It's free and always will be.</p>
+        <form id="formSection" action="signup.php" method="post"></form>
+        <form action="" id="formSection">
+          <div class="form-group">
+            <input type="text" class="control half" name="firstname" placeholder="First Name">
+            <input type="text" class="control half" name="lastname" placeholder="Last Name">
+          </div>
+          <div class="form-group">
+            <input type="text" class="control" name="phoneoremail" placeholder="Mobile Number or Email">
+          </div>
+          <div class="form-group">
+            <input type="password" class="control" name="password" placeholder="Password">
+          </div>
+          <div class="form-group">
+            <p class="birth">Birthday</p>
+            <select id="">
+              <option value="">1</option>
+              <option value="">2</option>
+              <option value="">3</option>
+              <option value="">4</option>
+            </select>
+            <select id="">
+              <option value="">Jan</option>
+              <option value="">Feb</option>
+              <option value="">March</option>
+              <option value="">April</option>
+            </select>
+            <select id="">
+              <option value="">2015</option>
+              <option value="">2016</option>
+              <option value="">2017</option>
+              <option value="">2018</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <input type="radio"><b>Female</b>
+            <input type="radio"><b>Male</b>
+          </div>
+          <div class="form-group">
+            <p class="some-text">By clicking Sign Up, you agree to our Terms, Data Policy and Cookie Policy. You may receive SMS notifications from us and can opt out at any time.</p>
+          </div>
+          <div class="form-group">
+            <button class="btn" type="submit">Sign Up</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
